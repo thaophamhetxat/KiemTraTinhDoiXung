@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+
+
+
+    function check(){
+        let p = [0, 6 ,2, 6, 1];
+            for (let i = 0; i < p.length/2; i++) {
+
+                let first = p[i];
+                let c =((p.length - 1)-i);
+                let last = p[c];
+                if (first != last) {
+                    return -1;
+
+                }return  1;
+            }
+
+    }
+if (check()==-1) {
+    document.write('k doi xung');
+} else {
+    document.write('doi xung');
+}
+</script>
+</body>
+</html>
